@@ -10,6 +10,7 @@ project:
 
 website:
   title: "Thomas Moerman"
+  favicon: favicon.svg
   description: "Retrieval-augmented and synthetic-data methods for specialized and low-resource NLP and AI."
   navbar:
     left:

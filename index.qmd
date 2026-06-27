@@ -29,17 +29,6 @@ I develop retrieval-augmented and synthetic-data methods for natural language pr
 - [May 2026]{.item-date} [ShAnEL-2](publications/2026-lrec-shanel.qmd), our multilingual short-answer grading dataset, was accepted at LREC 2026.
 - [March 2026]{.item-date} Our [study on fuzzy retrieval for automated grading](publications/2026-clinj-grading.qmd) appeared in the Computational Linguistics in the Netherlands Journal.
 
-## Recent updates
-
-<!-- Replace PASTE_URN_1 / PASTE_URN_2 with real post IDs: open a public LinkedIn post, click the three-dots menu, choose "Embed this post", and copy the urn:li:share:... id from the iframe src. -->
-
-::: {.linkedin-posts}
-<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:PASTE_URN_1" height="420" width="504" frameborder="0" allowfullscreen title="LinkedIn post"></iframe>
-<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:PASTE_URN_2" height="420" width="504" frameborder="0" allowfullscreen title="LinkedIn post"></iframe>
-:::
-
-[Follow on LinkedIn](https://www.linkedin.com/in/thomas-andreas-moerman/){.btn .btn-primary}
-
 :::
 
 :::

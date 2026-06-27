@@ -1,0 +1,20 @@
+---
+image: ../images/papers/2026-eamt.png
+title: "Multilingual Communication in the Asylum Context: Evaluating LLM-Based Machine Translation with Fuzzy Match Augmentation and Adaptive NMT across Resource Conditions under Low-Data Constraints"
+subtitle: "EAMT 2026 (accepted, best-paper shortlist)"
+description: "Fuzzy-match augmentation works with a 358-sentence translation memory across 14 languages. Best-paper shortlist."
+author:
+  - name: Thomas Moerman
+  - name: Arda Tezcan
+  - name: Lieve Macken
+date: 2026-05-01
+categories: [Machine Translation, Low-resource]
+citation:
+  type: paper-conference
+  container-title: "Proceedings of the 2026 Conference of the European Association for Machine Translation"
+google-scholar: true
+---
+
+Retrieval-augmented LLM translation is compared with adaptive NMT across 14 languages under an extremely small translation memory. Fuzzy-match retrieval beats random and zero-shot for 13 of 14 languages, with the largest gains for the lowest-resource languages.
+
+Research theme: [Machine translation](../research.qmd#machine-translation)

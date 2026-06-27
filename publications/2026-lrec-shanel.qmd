@@ -1,0 +1,19 @@
+---
+image: ../images/papers/2026-lrec-shanel.png
+title: "ShAnEL-2: A Multilingual Benchmarking Dataset for Short-Answer Language Learning Exercises"
+subtitle: "LREC 2026"
+description: "A multilingual dataset of 1,185 learner responses with teacher corrections, plus a Gemma 3 benchmark."
+author:
+  - name: Jasper Degraeuwe
+  - name: Thomas Moerman
+date: 2026-05-01
+categories: [Educational NLP]
+citation:
+  type: paper-conference
+  container-title: "Proceedings of the Fifteenth Language Resources and Evaluation Conference (LREC)"
+google-scholar: true
+---
+
+Presents ShAnEL-2, a multilingual dataset of 1,185 authentic learner responses across English, Spanish, and Dutch with expert teacher corrections. It benchmarks Gemma 3 in three setups and shows that few-shot retrieval-augmented generation reaches the best accuracy and recall.
+
+Research theme: [Educational NLP](../research.qmd#educational-nlp)

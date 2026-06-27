@@ -1,0 +1,18 @@
+---
+title: "Retrieval-augmented Generation for Automated Written Corrective Feedback: From Dataset to Human Evaluation"
+subtitle: "CLIN 35, 2025"
+description: "Retrieval-augmented generation for automated written corrective feedback in second language acquisition."
+author:
+  - name: Jasper Degraeuwe
+  - name: Thomas Moerman
+date: 2025-06-01
+categories: [Educational NLP]
+citation:
+  type: paper-conference
+  container-title: "35th Meeting of Computational Linguistics in the Netherlands (CLIN 35)"
+google-scholar: true
+---
+
+Work on retrieval-augmented generation for automated written corrective feedback in second language acquisition, moving from dataset construction toward human evaluation.
+
+Research theme: [Educational NLP](../research.qmd#educational-nlp)

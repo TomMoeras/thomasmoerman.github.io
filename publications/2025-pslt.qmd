@@ -1,0 +1,21 @@
+---
+image: ../images/papers/2025-pslt.png
+title: "Tailoring Machine Translation for Scientific Literature through Topic Filtering and Fuzzy Match Augmentation"
+subtitle: "PSLT Workshop, 2025"
+description: "Adds FastText topic filtering before fuzzy-match augmentation for scientific MT, beating smaller LLMs."
+author:
+  - name: Thomas Moerman
+  - name: Tom Vanallemeersch
+  - name: Sara Szoc
+  - name: Arda Tezcan
+date: 2025-06-24
+categories: [Machine Translation]
+citation:
+  type: paper-conference
+  container-title: "Proceedings of the Eleventh Workshop on Patent and Scientific Literature Translation (PSLT)"
+google-scholar: true
+---
+
+English to French scientific translation across neuroscience, climatology, and mobility. It adds topic filtering with FastText classifiers to select in-domain data before fuzzy-match augmentation. The best NMT configuration beats smaller LLMs, and the results are metric dependent.
+
+Research theme: [Machine translation](../research.qmd#machine-translation)

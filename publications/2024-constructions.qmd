@@ -1,0 +1,23 @@
+---
+image: ../images/papers/2024-constructions.png
+title: "Evaluating Large-Scale Construction Grammars on the Tasks of Semantic Frame Extraction and Semantic Role Labeling"
+subtitle: "Constructions, vol. 16, 2024"
+description: "Evaluates construction grammars on frame extraction and role labeling, comparing three parsing heuristics."
+author:
+  - name: Thomas Moerman
+  - name: Paul Van Eecke
+  - name: Katrien Beuls
+date: 2024-01-01
+categories: [Construction Grammar]
+citation:
+  type: article-journal
+  container-title: "Constructions"
+  doi: "10.24338/cons-651"
+google-scholar: true
+---
+
+An evaluation of computational construction grammars in Fluid Construction Grammar on semantic frame extraction and semantic role labeling, using OntoNotes and PropBank. It compares three heuristics for resolving competition between constructions and finds that a network-based heuristic performs best, while a purely frequency-based one is harmful.
+
+[DOI](https://doi.org/10.24338/cons-651)
+
+Research theme: [Construction grammar](../research.qmd#construction-grammar)

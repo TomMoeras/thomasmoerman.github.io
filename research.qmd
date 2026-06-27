@@ -1,0 +1,33 @@
+---
+title: "Research"
+---
+
+My work develops retrieval-augmented and synthetic-data methods for natural language processing (NLP) and artificial intelligence (AI). The same core idea runs through several areas. A model is given relevant prior examples, retrieved by similarity, and learns to adapt them to the case at hand. Alongside this, I explore several directions for creating and using synthetic data across tasks. These include back-translation and LLM-based generation to expand training data for machine translation, neurosymbolic contrastive data for studying fairness, and a closer look at which properties of synthetic data actually improve downstream quality. The result is that smaller, specialized models can reach or exceed much larger general-purpose models on specialized and low-resource tasks.
+
+## Machine translation {#machine-translation}
+
+Fuzzy-match augmentation retrieves similar past translations from a translation memory and adds them to a model's training data and prompts. My work shows that this is effective for both neural MT and large language models, that it combines well with back-translation and synthetic data, and that it holds under domain shift and severe low-resource conditions.
+
+[See all machine translation publications](publications/index.qmd?category=Machine%20Translation)
+
+## Educational NLP {#educational-nlp}
+
+The same retrieval idea transfers to automated grading of short-answer language-learning exercises. Instead of retrieving similar translations, the system retrieves how similar student answers were graded before. This line produced the ShAnEL-2 dataset and a study of fuzzy semantic retrieval strategies for grading.
+
+[See all educational NLP publications](publications/index.qmd?category=Educational%20NLP)
+
+## Fairness in language models
+
+I work on fairness in language models, in particular how they choose gender for ambiguous referents in translation and how synthetic contrastive data can reduce gender bias.
+
+## Construction grammar {#construction-grammar}
+
+A separate line evaluates computational construction grammars on semantic frame extraction and semantic role labeling, using standard benchmarks. It studies how different parsing heuristics affect the quality of the extracted meaning.
+
+[See all construction grammar publications](publications/index.qmd?category=Construction%20Grammar)
+
+## Infrastructure and compute
+
+Across these areas I work with retrieval and similarity search, synthetic data generation, parameter-efficient fine-tuning, and large-scale training and inference.
+
+I run experiments on the Flemish Tier-1 supercomputers, Hortense and the newer Sofia cluster, on NVIDIA A100 and H200 GPUs. My approved allocations include Tier-1 project grants and Starting Grants, held as principal applicant and as a collaborator on several projects across the department.

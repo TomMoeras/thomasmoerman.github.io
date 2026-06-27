@@ -1,0 +1,20 @@
+---
+image: ../images/papers/2026-clinj-grading.png
+title: "Fuzzy Semantic Retrieval Strategies for Automated Short-Answer Grading with Large Language Models in Language Learning"
+subtitle: "Computational Linguistics in the Netherlands Journal, vol. 15, 2026"
+description: "Adapts translation-memory fuzzy matching to automated grading, with an accuracy and recall trade-off by shot count."
+author:
+  - name: Thomas Moerman
+  - name: Jasper Degraeuwe
+  - name: Arda Tezcan
+date: 2026-01-01
+categories: [Educational NLP]
+citation:
+  type: article-journal
+  container-title: "Computational Linguistics in the Netherlands Journal"
+google-scholar: true
+---
+
+This work adapts translation-memory fuzzy matching to automated grading of short-answer language exercises. It evaluates ten retrieval strategies across 306 experiments and finds an accuracy and recall trade-off governed by the number of examples, with semantic retrieval generally beating non-semantic strategies.
+
+Research theme: [Educational NLP](../research.qmd#educational-nlp)

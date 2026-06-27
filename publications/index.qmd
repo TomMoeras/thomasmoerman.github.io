@@ -1,0 +1,20 @@
+---
+title: "Publications"
+format:
+  html:
+    include-after-body: ../_includes/listing-url-filter.html
+listing:
+  id: pubs
+  contents: "20*.qmd"
+  type: grid
+  grid-columns: 2
+  sort: "date desc"
+  sort-ui: [date, title]
+  filter-ui: true
+  categories: true
+  image-height: "240px"
+  fields: [image, title, subtitle, description, date, categories]
+page-layout: full
+---
+
+For the full and current list, see my [Google Scholar profile](https://scholar.google.be/citations?user=_c_5EIoAAAAJ). Download [all citations (BibTeX)](../publications.bib).

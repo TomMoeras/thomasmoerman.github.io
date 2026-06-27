@@ -1,0 +1,19 @@
+---
+image: ../images/papers/2024-kemt.png
+title: "Leveraging Synthetic Monolingual Data for Fuzzy-Match Augmentation in Neural Machine Translation: A Preliminary Study"
+subtitle: "KeMT Workshop, 2024"
+description: "A preliminary study combining LLM-generated synthetic data, back-translation, and Neural Fuzzy Repair for legal MT."
+author:
+  - name: Thomas Moerman
+  - name: Arda Tezcan
+date: 2024-06-27
+categories: [Machine Translation]
+citation:
+  type: paper-conference
+  container-title: "Proceedings of the First International Workshop on Knowledge-Enhanced Machine Translation (KeMT)"
+google-scholar: true
+---
+
+A preliminary study on English to French legal translation. It generates synthetic French monolingual data with an LLM, back-translates it to expand the training data, then applies Neural Fuzzy Repair. Combining back-translation with fuzzy-match augmentation improves over both the baseline and fuzzy-match augmentation alone.
+
+Research theme: [Machine translation](../research.qmd#machine-translation)

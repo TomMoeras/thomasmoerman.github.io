@@ -1,0 +1,45 @@
+project:
+  type: website
+  output-dir: docs
+  post-render:
+    - scripts/gen_llms.py
+  resources:
+    - images/ugent.png
+    - images/lt3.png
+    - images/transtech.png
+
+website:
+  title: "Thomas Moerman"
+  description: "Retrieval-augmented and synthetic-data methods for specialized and low-resource NLP and AI."
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: publications/index.qmd
+        text: Publications
+      - href: talks.qmd
+        text: Talks
+    right:
+      - icon: linkedin
+        href: https://www.linkedin.com/in/thomas-andreas-moerman/
+        aria-label: LinkedIn
+      - icon: github
+        href: https://github.com/TomMoeras
+        aria-label: GitHub
+      - icon: envelope
+        href: mailto:Thomas.Moerman@UGent.be
+        aria-label: Email
+  page-footer:
+    left: |
+      [![Ghent University](/images/ugent.png)](https://www.ugent.be) [![LT3](/images/lt3.png)](https://lt3.ugent.be) ![TransTech](/images/transtech.png)
+    center: "Thomas Moerman. Built with Quarto."
+    right: "[llms.txt](/llms.txt)"
+
+format:
+  html:
+    theme: [cosmo, theme.scss]
+    toc: false
+    grid:
+      body-width: 900px

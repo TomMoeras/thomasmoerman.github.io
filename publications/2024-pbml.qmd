@@ -1,0 +1,23 @@
+---
+image: ../images/papers/2024-pbml.png
+title: "Improving Fuzzy Match Augmented Neural Machine Translation in Specialised Domains through Synthetic Data"
+subtitle: "Prague Bulletin of Mathematical Linguistics, 2024"
+description: "Combines back-translation with Neural Fuzzy Repair across three language directions and beats several LLMs."
+author:
+  - name: Arda Tezcan
+  - name: Alina Skidanova
+  - name: Thomas Moerman
+date: 2024-12-01
+categories: [Machine Translation]
+citation:
+  type: article-journal
+  container-title: "The Prague Bulletin of Mathematical Linguistics"
+  doi: "10.14712/00326585.030"
+google-scholar: true
+---
+
+A journal study across three language directions and two specialized domains. It combines back-translation with Neural Fuzzy Repair to expand small parallel datasets with synthetic data. The combination gives large and statistically significant gains and beats several open and commercial LLMs on automatic metrics.
+
+[DOI](https://doi.org/10.14712/00326585.030)
+
+Research theme: [Machine translation](../research.qmd#machine-translation)

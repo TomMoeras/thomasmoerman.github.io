@@ -1,0 +1,45 @@
+---
+pagetitle: "Thomas Moerman"
+---
+
+::: {.home-grid}
+
+::: {.home-left}
+![](profile.jpg){.profile-pic}
+
+[Thomas Moerman]{.home-name}
+[PhD Researcher in NLP and AI, Ghent University (LT3)]{.home-title}
+
+I develop retrieval-augmented and synthetic-data methods for natural language processing (NLP) and artificial intelligence (AI), applied to a range of tasks such as machine translation, educational NLP, and fairness in language models.
+
+::: {.home-links}
+<a href="https://scholar.google.be/citations?user=_c_5EIoAAAAJ">Google Scholar</a>
+<a href="https://orcid.org/0009-0001-6021-8031">ORCID</a>
+<a href="https://www.linkedin.com/in/thomas-andreas-moerman/"><i class="bi bi-linkedin"></i> LinkedIn</a>
+<a href="https://github.com/TomMoeras"><i class="bi bi-github"></i> GitHub</a>
+<a href="mailto:Thomas.Moerman@UGent.be"><i class="bi bi-envelope"></i> Email</a>
+:::
+:::
+
+::: {.home-right}
+
+## News
+
+- [June 2026]{.item-date} Presented our [EAMT 2026 paper](publications/2026-eamt.qmd) on machine translation in the asylum context, shortlisted for a best-paper award.
+- [May 2026]{.item-date} [ShAnEL-2](publications/2026-lrec-shanel.qmd), our multilingual short-answer grading dataset, was accepted at LREC 2026.
+- [March 2026]{.item-date} Our [study on fuzzy retrieval for automated grading](publications/2026-clinj-grading.qmd) appeared in the Computational Linguistics in the Netherlands Journal.
+
+## Recent updates
+
+<!-- Replace PASTE_URN_1 / PASTE_URN_2 with real post IDs: open a public LinkedIn post, click the three-dots menu, choose "Embed this post", and copy the urn:li:share:... id from the iframe src. -->
+
+::: {.linkedin-posts}
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:PASTE_URN_1" height="420" width="504" frameborder="0" allowfullscreen title="LinkedIn post"></iframe>
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:PASTE_URN_2" height="420" width="504" frameborder="0" allowfullscreen title="LinkedIn post"></iframe>
+:::
+
+[Follow on LinkedIn](https://www.linkedin.com/in/thomas-andreas-moerman/){.btn .btn-primary}
+
+:::
+
+:::

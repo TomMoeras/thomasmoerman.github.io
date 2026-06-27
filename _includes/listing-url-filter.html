@@ -1,0 +1,10 @@
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const cat = new URLSearchParams(location.search).get('category');
+  if (!cat) return;
+  const els = document.querySelectorAll('.quarto-listing-category .category');
+  for (const el of els) {
+    if (el.textContent.replace(/\s+/g, ' ').trim().toLowerCase() === cat.toLowerCase()) { el.click(); break; }
+  }
+});
+</script>

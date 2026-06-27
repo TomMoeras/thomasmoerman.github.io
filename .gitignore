@@ -1,0 +1,6 @@
+/.quarto/
+/docs/
+
+**/*.quarto_ipynb
+/llms.txt
+/llms-full.txt

@@ -1,0 +1,18 @@
+---
+title: "Talks"
+---
+
+## Conference and workshop talks
+
+- [June 2026]{.item-date} [Multilingual Communication in the Asylum Context](publications/2026-eamt.qmd). EAMT 2026 (best-paper shortlist). [Slides (PDF)](talks/eamt2026.pdf)
+- [June 2025]{.item-date} [Tailoring Machine Translation for Scientific Literature](publications/2025-pslt.qmd). PSLT 2025, the Patent and Scientific Literature Translation workshop. [Slides (PDF)](talks/pslt2025.pdf)
+- [May 2025]{.item-date} [Fuzzy Match Augmentation with Synthetic Data](publications/2024-pbml.qmd). NITS 2025. [Slides (PDF)](talks/nits2025.pdf)
+- [April 2025]{.item-date} High-Performance Computing for NLP. Workshop, Ghent University. [Slides (PDF)](talks/hpc-workshop.pdf)
+
+## Guest lectures and teaching
+
+Lecture slides with their accompanying notebooks. The notebooks open on GitHub.
+
+- [November 2025]{.item-date} LLMs in Translation. Guest lecture, Ghent University (Machine Translation course). [Slides (PDF)](talks/llm-translation.pdf) · [Notebook](https://github.com/TomMoeras/TomMoeras.github.io/blob/main/_notebooks/llm-finetune-translation.ipynb)
+- [November 2025]{.item-date} Neural Machine Translation. Guest lecture, Ghent University (Machine Translation course). [Slides (PDF)](talks/nmt-presentation.pdf) · Notebooks: [Neural networks crash course](https://github.com/TomMoeras/TomMoeras.github.io/blob/main/_notebooks/neural_networks_crash_course_key.ipynb), [From MLPs to neural language models](https://github.com/TomMoeras/TomMoeras.github.io/blob/main/_notebooks/from_mlps_to_neural_language_models_key.ipynb), [Training NMT](https://github.com/TomMoeras/TomMoeras.github.io/blob/main/_notebooks/training_NMT.ipynb)
+- [November 2025]{.item-date} Object-Oriented Programming for Linguists. Lecture, Ghent University. [Notebook](https://github.com/TomMoeras/TomMoeras.github.io/blob/main/_notebooks/oop_for_linguists.ipynb)

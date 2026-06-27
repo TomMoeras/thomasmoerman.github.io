@@ -8,7 +8,7 @@ import glob, os, yaml
 
 os.chdir(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-SITE = "https://tommoeras.github.io"   # update when a custom domain is set
+SITE = "https://tommoeras.github.io/thomasmoerman.github.io"   # project page; update when a custom domain is set
 PUB_DIR = "publications"
 OUT_DIR = os.environ.get("QUARTO_PROJECT_OUTPUT_DIR", "docs")  # write into the built site
 

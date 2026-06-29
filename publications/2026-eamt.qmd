@@ -7,7 +7,7 @@ author:
   - name: Thomas Moerman
   - name: Arda Tezcan
   - name: Lieve Macken
-date: 2026-05-01
+date: 2026-06-01
 categories: [Machine Translation, Low-resource]
 citation:
   type: paper-conference

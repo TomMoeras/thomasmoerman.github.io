@@ -46,7 +46,7 @@ My research develops retrieval-augmented and synthetic-data methods for language
 #section[Education]
 #entry[*PhD in Natural Language Processing*, Ghent University, LT3 #linebreak() #text(size: 8.8pt)[Machine translation augmented with automatically extracted similar translations. Supervisors: Arda Tezcan and Els Lefever.]][2023 to 2027 (expected)]
 #v(0.15em)
-#entry[*Advanced MA in Linguistics: Natural Language Processing*, Ghent University and KU Leuven][2023]
+#entry[*Advanced MA in Linguistics: Natural Language Processing*, Ghent University and KU Leuven, summa cum laude][2023]
 #v(0.15em)
 #entry[*MA in Linguistics and Literature*, English and Scandinavian studies, Ghent University, cum laude][2022]
 #v(0.15em)
@@ -54,13 +54,15 @@ My research develops retrieval-augmented and synthetic-data methods for language
 
 // ---------- Publications ----------
 #section[Selected publications]
-9 published or accepted works, 6 first-authored, 3 journal articles. Full list: #link("https://thomasmoerman.dev/publications/")[thomasmoerman.dev/publications]
+9 published or accepted works, 6 first-authored, 3 journal articles. Full list: #link("https://scholar.google.be/citations?user=_c_5EIoAAAAJ")[Google Scholar] and #link("https://orcid.org/0009-0001-6021-8031")[ORCID]
 #v(0.15em)
 #entry[Moerman, Gkovedarou, Hackenbuchner. *ContraGAND: Auditing and Repairing Gender Ambiguity Failures in LLMs with Neurosymbolic Contrastive Data Augmentation.* EMNLP, main conference.][2026]
 #v(0.15em)
 #entry[Moerman, Tezcan, Macken. *Multilingual Communication in the Asylum Context: LLM-Based MT with Fuzzy Match Augmentation.* EAMT. Shortlisted for the best-paper award.][2026]
 #v(0.15em)
 #entry[Moerman, Degraeuwe, Tezcan. *Fuzzy Semantic Retrieval Strategies for Automated Short-Answer Grading with LLMs.* Computational Linguistics in the Netherlands Journal, 15.][2026]
+#v(0.15em)
+#entry[Moerman, Tezcan. *Getting More from Small LLMs: Fuzzy-Match Retrieval and Candidate Scoring for Multitask Sorbian NLP.* WMT shared task system description, under review.][2026]
 #v(0.15em)
 #entry[Moerman, Lefever, Tezcan. *Advancing Fuzzy Match Augmentation for Domain-Specific Machine Translation.* Under review at the Journal of Artificial Intelligence Research.][2025]
 

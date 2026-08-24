@@ -6,13 +6,13 @@
 #let ink = rgb("#1a1a1a")
 #let muted = rgb("#5a6570")
 
-#set page(paper: "a4", margin: (x: 1.6cm, top: 1.4cm, bottom: 1.3cm))
+#set page(paper: "a4", margin: (x: 1.6cm, top: 1.2cm, bottom: 1.1cm))
 #set text(font: "Source Sans 3", size: 9.2pt, fill: ink)
 #set par(leading: 0.5em)
 #show link: set text(fill: ugentblue)
 
 #let section(title) = {
-  v(0.55em)
+  v(0.45em)
   text(size: 10.5pt, weight: 600, fill: ugentblue, upper(title))
   v(-0.65em)
   line(length: 100%, stroke: 0.6pt + ugentblue.lighten(55%))
@@ -27,18 +27,23 @@
 )
 
 // ---------- Header ----------
-#align(center)[
-  #text(size: 20pt, weight: 700)[Thomas Moerman]
-  #v(-0.5em)
-  #text(size: 10.5pt, fill: muted)[PhD researcher in natural language processing and AI, Ghent University (LT3)]
-  #v(-0.45em)
-  #text(size: 9pt)[
-    #link("mailto:thomas.moerman@ugent.be")[thomas.moerman\@ugent.be] #h(0.7em)|#h(0.7em)
-    #link("https://thomasmoerman.dev")[thomasmoerman.dev] #h(0.7em)|#h(0.7em)
-    #link("https://orcid.org/0009-0001-6021-8031")[ORCID 0009-0001-6021-8031] #h(0.7em)|#h(0.7em)
-    #link("https://github.com/TomMoeras")[github.com/TomMoeras]
-  ]
-]
+#grid(
+  columns: (1fr, auto),
+  column-gutter: 1.2em,
+  align(horizon)[
+    #text(size: 20pt, weight: 700)[Thomas Moerman]
+    #v(-0.5em)
+    #text(size: 10.5pt, fill: muted)[PhD researcher in natural language processing and AI, Ghent University (LT3)]
+    #v(-0.45em)
+    #text(size: 9pt)[
+      #link("mailto:thomas.moerman@ugent.be")[thomas.moerman\@ugent.be] #h(0.7em)|#h(0.7em)
+      #link("https://thomasmoerman.dev")[thomasmoerman.dev] #linebreak()
+      #link("https://orcid.org/0009-0001-6021-8031")[ORCID 0009-0001-6021-8031] #h(0.7em)|#h(0.7em)
+      #link("https://github.com/TomMoeras")[github.com/TomMoeras]
+    ]
+  ],
+  box(clip: true, radius: 4pt, image("photo.jpg", height: 2.2cm)),
+)
 #v(-0.2em)
 My research develops retrieval-augmented and synthetic-data methods for language technology, with machine translation as the primary focus and applications in educational NLP, fairness in language models, and vision-language OCR. A consistent finding is that these techniques let smaller specialized models reach or exceed the quality of much larger general-purpose LLMs.
 

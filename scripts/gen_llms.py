@@ -39,6 +39,7 @@ HEADER = (
 )
 OPTIONAL = (
     "\n## Optional\n\n"
+    "- [CV (one-page PDF)](https://thomasmoerman.dev/cv.pdf)\n"
     "- [Google Scholar](https://scholar.google.be/citations?user=_c_5EIoAAAAJ)\n"
     "- [LinkedIn](https://www.linkedin.com/in/thomas-andreas-moerman/)\n"
 )

@@ -73,7 +73,7 @@ My research develops retrieval-augmented and synthetic-data methods for language
 
 // ---------- Awards ----------
 #section[Awards and competitions]
-#entry[*Joint winner, Sorbian track, WMT 2026 shared task on multitask LLMs with limited resources* (team LT3, team lead). One 2B model jointly handling translation, QA, spelling, grammar, and maths tasks for Upper and Lower Sorbian.][2026]
+#entry[*Winner, Sorbian track, WMT 2026 shared task on multitask LLMs with limited resources* (team LT3, team lead). One 2B model jointly handling translation, QA, spelling, grammar, and maths tasks for Upper and Lower Sorbian.][2026]
 #v(0.15em)
 #entry[*Best-paper award shortlist*, EAMT 2026.][2026]
 

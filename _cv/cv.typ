@@ -89,7 +89,7 @@ Guest lectures on Neural Machine Translation and on LLMs in Translation (MTPE co
 
 // ---------- Service ----------
 #section[Academic service]
-Reviewer for EAMT 2026 (three papers) and ACL (one paper). Presented at EAMT 2026, the Machine Translation Marathon 2025, CLIN, and LREC 2026.
+Reviewer for ACL, EAMT, and MT Summit. Presented at EAMT 2026, MT Summit 2025, the Machine Translation Marathon 2025, CLIN, and LREC 2026.
 
 // ---------- Skills ----------
 #section[Technical skills and languages]

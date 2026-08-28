@@ -1,0 +1,5 @@
+- [August 2026]{.item-date} Our [EAMT 2026 paper](publications/2026-eamt.qmd) on machine translation in the asylum context is now published in the [ACL Anthology](https://aclanthology.org/2026.eamt-1.3/).
+- [July 2026]{.item-date} Taught the five-day Introduction to Python module at the MILS summer school (Methods in Language Sciences), Ghent University.
+- [June 2026]{.item-date} Presented our [EAMT 2026 paper](publications/2026-eamt.qmd) on machine translation in the asylum context, shortlisted for a best-paper award.
+- [May 2026]{.item-date} [ShAnEL-2](publications/2026-lrec-shanel.qmd), our multilingual short-answer grading dataset, was accepted at LREC 2026.
+- [March 2026]{.item-date} Our [study on fuzzy retrieval for automated grading](publications/2026-clinj-grading.qmd) appeared in the Computational Linguistics in the Netherlands Journal.

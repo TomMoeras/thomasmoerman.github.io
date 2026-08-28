@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: docs
+  pre-render:
+    - scripts/gen_news.py
   post-render:
     - scripts/gen_llms.py
   resources:

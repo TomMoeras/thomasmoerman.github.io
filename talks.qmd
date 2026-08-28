@@ -13,6 +13,7 @@ title: "Talks"
 
 Lecture slides with their accompanying notebooks. The notebooks open on GitHub.
 
+- [July 2026]{.item-date} Introduction to Python. Five-day module at the MILS summer school (Methods in Language Sciences), Ghent University, taught with Pranaydeep Singh. Beginner course for language scientists, from fundamentals to group projects on corpus analysis, language-model APIs, and text automation. [Course data](https://github.com/TomMoeras/mils-python-course-ugent)
 - [November 2025]{.item-date} LLMs in Translation. Guest lecture, Ghent University (Machine Translation course). [Slides (PDF)](talks/llm-translation.pdf) · [Notebook](https://github.com/TomMoeras/thomasmoerman.github.io/blob/main/_notebooks/llm-finetune-translation.ipynb)
 - [November 2025]{.item-date} Neural Machine Translation. Guest lecture, Ghent University (Machine Translation course). [Slides (PDF)](talks/nmt-presentation.pdf) · Notebooks: [Neural networks crash course](https://github.com/TomMoeras/thomasmoerman.github.io/blob/main/_notebooks/neural_networks_crash_course_key.ipynb), [From MLPs to neural language models](https://github.com/TomMoeras/thomasmoerman.github.io/blob/main/_notebooks/from_mlps_to_neural_language_models_key.ipynb), [Training NMT](https://github.com/TomMoeras/thomasmoerman.github.io/blob/main/_notebooks/training_NMT.ipynb)
 - [November 2025]{.item-date} Object-Oriented Programming for Linguists. Lecture, Ghent University. [Notebook](https://github.com/TomMoeras/thomasmoerman.github.io/blob/main/_notebooks/oop_for_linguists.ipynb)

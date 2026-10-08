@@ -4,6 +4,7 @@ title: "Talks"
 
 ## Conference and workshop talks
 
+- [September 2026]{.item-date} Synthetic Data for Machine Translation: Where We Are. CLIN 2026 (oral presentation). [Slides (PDF)](talks/clin2026.pdf)
 - [June 2026]{.item-date} [Multilingual Communication in the Asylum Context](publications/2026-eamt.qmd). EAMT 2026 (best-paper shortlist). [Slides (PDF)](talks/eamt2026.pdf)
 - [June 2025]{.item-date} [Tailoring Machine Translation for Scientific Literature](publications/2025-pslt.qmd). PSLT 2025, the Patent and Scientific Literature Translation workshop. [Slides (PDF)](talks/pslt2025.pdf)
 - [May 2025]{.item-date} [Fuzzy Match Augmentation with Synthetic Data](publications/2024-pbml.qmd). NITS 2025. [Slides (PDF)](talks/nits2025.pdf)

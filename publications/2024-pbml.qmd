@@ -1,5 +1,5 @@
 ---
-image: ../images/papers/2024-pbml.png
+image: ../images/papers/2024-pbml-1.png
 title: "Improving Fuzzy Match Augmented Neural Machine Translation in Specialised Domains through Synthetic Data"
 subtitle: "Prague Bulletin of Mathematical Linguistics, 2024"
 description: "Combines back-translation with Neural Fuzzy Repair across three language directions and beats several LLMs."
@@ -16,6 +16,13 @@ citation:
 google-scholar: true
 ---
 
+<!-- figstrip -->
+<div class="figstrip" aria-label="Figures from the paper">
+<figure><img src="../images/papers/2024-pbml-1.png" alt="Back-translated pairs enlarge both the retrieval memory and the training data" loading="lazy"><figcaption>Back-translated pairs enlarge both the retrieval memory and the training data</figcaption></figure>
+<figure><img src="../images/papers/2024-pbml-2.png" alt="The systems compared, each trained from scratch" loading="lazy"><figcaption>The systems compared, each trained from scratch</figcaption></figure>
+<figure><img src="../images/papers/2024-pbml-3.png" alt="BLEU in three directions, Table 5" loading="lazy"><figcaption>BLEU in three directions, Table 5</figcaption></figure>
+</div>
+<!-- /figstrip -->
 A journal study across three language directions and two specialized domains. It combines back-translation with Neural Fuzzy Repair to expand small parallel datasets with synthetic data. The combination gives large and statistically significant gains and beats several open and commercial LLMs on automatic metrics.
 
 [DOI](https://doi.org/10.14712/00326585.030)

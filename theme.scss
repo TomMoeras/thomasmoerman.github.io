@@ -94,3 +94,29 @@ h2 {
   font-size: 0.92em;
   margin-right: 0.45rem;
 }
+
+// Figure strip on publication pages (filled by _includes/figstrip.html)
+.figstrip {
+  position: relative;
+  margin: 0.4rem 0 1.4rem;
+  border: 1px solid #DEE2E6;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #fff;
+  outline: none;
+}
+.figstrip:focus-visible { box-shadow: 0 0 0 3px rgba(30, 100, 200, 0.35); }
+.figstrip figure { display: none; margin: 0; }
+.figstrip figure.active, .figstrip.single figure { display: block; }
+.figstrip img { display: block; width: 100%; height: auto; aspect-ratio: 1200 / 660; cursor: pointer; }
+.figstrip.single img { cursor: default; }
+.figstrip figcaption { font-size: 0.9rem; color: #6b7280; padding: 0.45rem 0.9rem 0.2rem; }
+.figstrip-nav { display: flex; align-items: center; justify-content: center; gap: 0.6rem; padding: 0.3rem 0 0.6rem; }
+.figstrip-btn { border: 1px solid #DEE2E6; background: #fff; color: $primary; border-radius: 50%; width: 2rem; height: 2rem; line-height: 1; font-size: 1.4rem; cursor: pointer; padding: 0; }
+.figstrip-btn:hover { background: #E8F0FE; }
+.figstrip-dots { display: flex; gap: 0.4rem; }
+.figstrip-dot { width: 0.65rem; height: 0.65rem; border-radius: 50%; border: none; background: #DEE2E6; padding: 0; cursor: pointer; }
+.figstrip-dot.active { background: $primary; }
+
+// Listing cards show the whole figure rather than a centre crop
+.quarto-grid-item .card-img-top, .quarto-grid-item img.thumbnail-image { object-fit: contain; background: #fff; }

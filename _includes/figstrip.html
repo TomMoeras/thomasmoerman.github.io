@@ -1,0 +1,23 @@
+<script>
+// Figure strip on publication pages: one figure at a time, arrows, dots, left and right keys, click to advance.
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('.figstrip').forEach(strip => {
+    const figs = [...strip.querySelectorAll('figure')];
+    if (figs.length < 2) { strip.classList.add('single'); return; }
+    let i = 0;
+    const nav = document.createElement('div'); nav.className = 'figstrip-nav';
+    const prev = document.createElement('button'); prev.type = 'button'; prev.className = 'figstrip-btn'; prev.setAttribute('aria-label', 'Previous figure'); prev.textContent = '‹';
+    const next = document.createElement('button'); next.type = 'button'; next.className = 'figstrip-btn'; next.setAttribute('aria-label', 'Next figure'); next.textContent = '›';
+    const dots = document.createElement('div'); dots.className = 'figstrip-dots';
+    figs.forEach((_, k) => { const d = document.createElement('button'); d.type = 'button'; d.className = 'figstrip-dot'; d.setAttribute('aria-label', `Figure ${k + 1} of ${figs.length}`); d.addEventListener('click', () => show(k)); dots.appendChild(d); });
+    nav.append(prev, dots, next); strip.appendChild(nav);
+    const show = k => { i = (k + figs.length) % figs.length; figs.forEach((f, j) => f.classList.toggle('active', j === i)); [...dots.children].forEach((d, j) => d.classList.toggle('active', j === i)); };
+    prev.addEventListener('click', () => show(i - 1));
+    next.addEventListener('click', () => show(i + 1));
+    figs.forEach(f => f.querySelector('img').addEventListener('click', () => show(i + 1)));
+    strip.tabIndex = 0;
+    strip.addEventListener('keydown', e => { if (e.key === 'ArrowRight') { show(i + 1); e.preventDefault(); } else if (e.key === 'ArrowLeft') { show(i - 1); e.preventDefault(); } });
+    show(0);
+  });
+});
+</script>

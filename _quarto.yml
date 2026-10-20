@@ -44,6 +44,7 @@ website:
 format:
   html:
     theme: [cosmo, theme.scss]
+    include-after-body: _includes/figstrip.html
     toc: false
     grid:
       body-width: 900px

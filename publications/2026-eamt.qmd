@@ -1,5 +1,5 @@
 ---
-image: ../images/papers/2026-eamt.png
+image: ../images/papers/2026-eamt-1.png
 title: "Multilingual Communication in the Asylum Context: Evaluating LLM-Based Machine Translation with Fuzzy Match Augmentation and Adaptive NMT across Resource Conditions under Low-Data Constraints"
 subtitle: "EAMT 2026 (best-paper shortlist)"
 description: "Fuzzy-match augmentation works with a 358-sentence translation memory across 14 languages. Best-paper shortlist."
@@ -19,6 +19,13 @@ citation:
 google-scholar: true
 ---
 
+<!-- figstrip -->
+<div class="figstrip" aria-label="Figures from the paper">
+<figure><img src="../images/papers/2026-eamt-1.png" alt="Fuzzy matches from a 358-sentence memory into an LLM, 14 languages in three tiers" loading="lazy"><figcaption>Fuzzy matches from a 358-sentence memory into an LLM, 14 languages in three tiers</figcaption></figure>
+<figure><img src="../images/papers/2026-eamt-2.png" alt="chrF by tier, fuzzy matches against random and zero-shot" loading="lazy"><figcaption>chrF by tier, fuzzy matches against random and zero-shot</figcaption></figure>
+<figure><img src="../images/papers/2026-eamt-3.png" alt="Tigrinya chrF, fuzzy matches more than double the zero-shot score" loading="lazy"><figcaption>Tigrinya chrF, fuzzy matches more than double the zero-shot score</figcaption></figure>
+</div>
+<!-- /figstrip -->
 Retrieval-augmented LLM translation is compared with adaptive NMT across 14 languages under an extremely small translation memory. Fuzzy-match retrieval beats random and zero-shot for 13 of 14 languages, with the largest gains for the lowest-resource languages.
 
 Published in the [ACL Anthology](https://aclanthology.org/2026.eamt-1.3/) ([PDF](https://aclanthology.org/2026.eamt-1.3.pdf)).

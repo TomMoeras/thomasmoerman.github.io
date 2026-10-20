@@ -1,5 +1,5 @@
 ---
-image: ../images/papers/2026-lrec-shanel.png
+image: ../images/papers/2026-lrec-shanel-1.png
 title: "ShAnEL-2: A Multilingual Benchmarking Dataset for Short-Answer Language Learning Exercises"
 subtitle: "LREC 2026"
 description: "A multilingual dataset of 1,185 learner responses with teacher corrections, plus a Gemma 3 benchmark."
@@ -14,6 +14,13 @@ citation:
 google-scholar: true
 ---
 
+<!-- figstrip -->
+<div class="figstrip" aria-label="Figures from the paper">
+<figure><img src="../images/papers/2026-lrec-shanel-1.png" alt="1,185 authentic learner responses in three languages with teacher corrections" loading="lazy"><figcaption>1,185 authentic learner responses in three languages with teacher corrections</figcaption></figure>
+<figure><img src="../images/papers/2026-lrec-shanel-2.png" alt="Off-the-shelf, textbook RAG and few-shot RAG, benchmarked on the dataset" loading="lazy"><figcaption>Off-the-shelf, textbook RAG and few-shot RAG, benchmarked on the dataset</figcaption></figure>
+<figure><img src="../images/papers/2026-lrec-shanel-3.png" alt="Examples beat theory, Table 2" loading="lazy"><figcaption>Examples beat theory, Table 2</figcaption></figure>
+</div>
+<!-- /figstrip -->
 Presents ShAnEL-2, a multilingual dataset of 1,185 authentic learner responses across English, Spanish, and Dutch with expert teacher corrections. It benchmarks Gemma 3 in three setups and shows that few-shot retrieval-augmented generation reaches the best accuracy and recall.
 
 Research theme: [Educational NLP](../research.qmd#educational-nlp)

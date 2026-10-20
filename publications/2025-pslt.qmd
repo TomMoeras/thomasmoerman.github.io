@@ -1,5 +1,5 @@
 ---
-image: ../images/papers/2025-pslt.png
+image: ../images/papers/2025-pslt-1.png
 title: "Tailoring Machine Translation for Scientific Literature through Topic Filtering and Fuzzy Match Augmentation"
 subtitle: "PSLT Workshop, 2025"
 description: "Adds FastText topic filtering before fuzzy-match augmentation for scientific MT, beating smaller LLMs."
@@ -16,6 +16,13 @@ citation:
 google-scholar: true
 ---
 
+<!-- figstrip -->
+<div class="figstrip" aria-label="Figures from the paper">
+<figure><img src="../images/papers/2025-pslt-1.png" alt="Topic filtering selects in-domain data before fuzzy-match augmentation" loading="lazy"><figcaption>Topic filtering selects in-domain data before fuzzy-match augmentation</figcaption></figure>
+<figure><img src="../images/papers/2025-pslt-2.png" alt="BLEU per domain, the filtered data with fuzzy matches wins everywhere" loading="lazy"><figcaption>BLEU per domain, the filtered data with fuzzy matches wins everywhere</figcaption></figure>
+<figure><img src="../images/papers/2025-pslt-3.png" alt="BLEU on neuroscience, NMT against four LLMs with fuzzy matches" loading="lazy"><figcaption>BLEU on neuroscience, NMT against four LLMs with fuzzy matches</figcaption></figure>
+</div>
+<!-- /figstrip -->
 English to French scientific translation across neuroscience, climatology, and mobility. It adds topic filtering with FastText classifiers to select in-domain data before fuzzy-match augmentation. The best NMT configuration beats smaller LLMs, and the results are metric dependent.
 
 Research theme: [Machine translation](../research.qmd#machine-translation)

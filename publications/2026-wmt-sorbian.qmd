@@ -1,5 +1,5 @@
 ---
-image: ../images/papers/2026-wmt-sorbian.png
+image: ../images/papers/2026-wmt-sorbian-1.png
 title: "Getting More from Small LLMs and Limited Data: Fuzzy-Match Retrieval and Candidate Scoring for Multitask Sorbian NLP"
 subtitle: "WMT 2026 (joint winner, Sorbian track)"
 description: "A QLoRA-fine-tuned Qwen3.5-2B with fuzzy-match retrieval and candidate scoring, joint winner of the WMT 2026 Sorbian multitask track."
@@ -18,6 +18,13 @@ citation:
 google-scholar: true
 ---
 
+<!-- figstrip -->
+<div class="figstrip" aria-label="Figures from the paper">
+<figure><img src="../images/papers/2026-wmt-sorbian-1.png" alt="One 2B model serves five Sorbian tasks" loading="lazy"><figcaption>One 2B model serves five Sorbian tasks</figcaption></figure>
+<figure><img src="../images/papers/2026-wmt-sorbian-2.png" alt="Fuzzy matches by stage, synthetic task data, scoring instead of writing" loading="lazy"><figcaption>Fuzzy matches by stage, synthetic task data, scoring instead of writing</figcaption></figure>
+<figure><img src="../images/papers/2026-wmt-sorbian-3.png" alt="Official results, 22 rank points, first or second on every task" loading="lazy"><figcaption>Official results, 22 rank points, first or second on every task</figcaption></figure>
+</div>
+<!-- /figstrip -->
 LT3's submission to the WMT 2026 shared task on Multitask LLMs with Limited Resources for Upper Sorbian (hsb) and Lower Sorbian (dsb). A single QLoRA-fine-tuned Qwen3.5-2B model handles machine translation, question answering, spell checking, grammar checking, and maths reasoning, combining fuzzy-match retrieval (over authentic and back-translated pools), synthetic task data, and a scoring-based inference system. The primary system was the joint winner of the Sorbian track, ranking first or second across all five tasks.
 
 Paper: [Proceedings of WMT 2026 (PDF)](https://www2.statmt.org/wmt26/pdf/2026.wmt-1.210.pdf). Code, models, and data: [GitHub](https://github.com/TomMoeras/wmt26-lt3-sorbian), [Hugging Face models](https://huggingface.co/TomMoeras/wmt26-lt3-sorbian), [dataset](https://huggingface.co/datasets/TomMoeras/wmt26-lt3-sorbian-data).

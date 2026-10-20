@@ -1,4 +1,5 @@
 ---
+image: ../images/papers/2025-clin35-feedback-1.png
 title: "Retrieval-augmented Generation for Automated Written Corrective Feedback: From Dataset to Human Evaluation"
 subtitle: "CLIN 35, 2025"
 description: "Retrieval-augmented generation for automated written corrective feedback in second language acquisition."
@@ -13,6 +14,12 @@ citation:
 google-scholar: true
 ---
 
+<!-- figstrip -->
+<div class="figstrip" aria-label="Figures from the paper">
+<figure><img src="../images/papers/2025-clin35-feedback-1.png" alt="Retrieval-augmented generation of written corrective feedback" loading="lazy"><figcaption>Retrieval-augmented generation of written corrective feedback</figcaption></figure>
+<figure><img src="../images/papers/2025-clin35-feedback-2.png" alt="The three stages of the study" loading="lazy"><figcaption>The three stages of the study</figcaption></figure>
+</div>
+<!-- /figstrip -->
 Work on retrieval-augmented generation for automated written corrective feedback in second language acquisition, moving from dataset construction toward human evaluation.
 
 Research theme: [Educational NLP](../research.qmd#educational-nlp)

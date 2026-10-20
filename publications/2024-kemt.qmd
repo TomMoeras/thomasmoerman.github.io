@@ -1,5 +1,5 @@
 ---
-image: ../images/papers/2024-kemt.png
+image: ../images/papers/2024-kemt-1.png
 title: "Leveraging Synthetic Monolingual Data for Fuzzy-Match Augmentation in Neural Machine Translation: A Preliminary Study"
 subtitle: "KeMT Workshop, 2024"
 description: "A preliminary study combining LLM-generated synthetic data, back-translation, and Neural Fuzzy Repair for legal MT."
@@ -14,6 +14,12 @@ citation:
 google-scholar: true
 ---
 
+<!-- figstrip -->
+<div class="figstrip" aria-label="Figures from the paper">
+<figure><img src="../images/papers/2024-kemt-1.png" alt="LLM-generated French text, back-translated, then fuzzy-match augmentation" loading="lazy"><figcaption>LLM-generated French text, back-translated, then fuzzy-match augmentation</figcaption></figure>
+<figure><img src="../images/papers/2024-kemt-2.png" alt="BLEU on EN to FR legal text, Table 4" loading="lazy"><figcaption>BLEU on EN to FR legal text, Table 4</figcaption></figure>
+</div>
+<!-- /figstrip -->
 A preliminary study on English to French legal translation. It generates synthetic French monolingual data with an LLM, back-translates it to expand the training data, then applies Neural Fuzzy Repair. Combining back-translation with fuzzy-match augmentation improves over both the baseline and fuzzy-match augmentation alone.
 
 Research theme: [Machine translation](../research.qmd#machine-translation)

@@ -1,5 +1,5 @@
 ---
-image: ../images/papers/2024-constructions.png
+image: ../images/papers/2024-constructions-1.png
 title: "Evaluating Large-Scale Construction Grammars on the Tasks of Semantic Frame Extraction and Semantic Role Labeling"
 subtitle: "Constructions, vol. 16, 2024"
 description: "Evaluates construction grammars on frame extraction and role labeling, comparing three parsing heuristics."
@@ -16,6 +16,12 @@ citation:
 google-scholar: true
 ---
 
+<!-- figstrip -->
+<div class="figstrip" aria-label="Figures from the paper">
+<figure><img src="../images/papers/2024-constructions-1.png" alt="A construction grammar extracts the semantic frame and its roles" loading="lazy"><figcaption>A construction grammar extracts the semantic frame and its roles</figcaption></figure>
+<figure><img src="../images/papers/2024-constructions-2.png" alt="The frequency-based heuristic hurts, the network heuristic helps" loading="lazy"><figcaption>The frequency-based heuristic hurts, the network heuristic helps</figcaption></figure>
+</div>
+<!-- /figstrip -->
 An evaluation of computational construction grammars in Fluid Construction Grammar on semantic frame extraction and semantic role labeling, using OntoNotes and PropBank. It compares three heuristics for resolving competition between constructions and finds that a network-based heuristic performs best, while a purely frequency-based one is harmful.
 
 [DOI](https://doi.org/10.24338/cons-651)

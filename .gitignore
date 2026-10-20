@@ -4,3 +4,5 @@
 **/*.quarto_ipynb
 /llms.txt
 /llms-full.txt
+/_figures/node_modules/
+/_figures/out/

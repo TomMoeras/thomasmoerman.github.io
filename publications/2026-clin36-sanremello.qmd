@@ -1,0 +1,31 @@
+---
+image: ../images/papers/2026-clin36-sanremello-1.png
+title: "SanreMello Corpus: The Story of Seven Decades of Sanremo and Melodifestivalen in Data"
+subtitle: "CLIN 36, 2026 (poster)"
+description: "A cross-lingual corpus of 3,369 entries from Italy's Sanremo and Sweden's Melodifestivalen, with language, anglicism, code-switching, topic and emotion layers, released on Hugging Face."
+author:
+  - name: Thomas Moerman
+  - name: Pranaydeep Singh
+  - name: Alessandra Teresa Cignarella
+  - name: Joni Kruijsbergen
+date: 2026-09-11
+categories: [Digital Humanities]
+citation:
+  type: paper-conference
+  container-title: "36th Meeting of Computational Linguistics in the Netherlands (CLIN 36), Book of Abstracts"
+  page: "100-101"
+  event-place: "Brussels, Belgium"
+  url: "https://clin36.ai.vub.ac.be/CLIN36_book_of_abstracts.pdf"
+google-scholar: true
+---
+
+<!-- figstrip -->
+<div class="figstrip" aria-label="Figures from the paper">
+<figure><img src="../images/papers/2026-clin36-sanremello-1.png" alt="Two national contests with one rule that differs, 3,369 entries in all" loading="lazy"><figcaption>Two national contests with one rule that differs, 3,369 entries in all</figcaption></figure>
+<figure><img src="../images/papers/2026-clin36-sanremello-2.png" alt="Four sources, five analyses, one outcome to explain" loading="lazy"><figcaption>Four sources, five analyses, one outcome to explain</figcaption></figure>
+<figure><img src="../images/papers/2026-clin36-sanremello-3.png" alt="The most frequent English loans in each contest" loading="lazy"><figcaption>The most frequent English loans in each contest</figcaption></figure>
+</div>
+<!-- /figstrip -->
+The Sanremo Music Festival and Melodifestivalen are two of Europe's longest-running song contests, and they differ in one rule. Sanremo has required Italian lyrics throughout its history, while Melodifestivalen allowed any language from 2002 and English quickly became the norm. The corpus covers 3,369 entries from 1951 to 2026 with lyrics, metadata, jury and televote results and audio features. On top of it we track the language of the songs, English words inside Italian and Swedish lyrics, code-switching within songs, the topics across seven decades, the networks of songwriters, and the emotional arcs of lyrics and music, and we ask how these relate to a song's placement.
+
+The derived data, lexicons and analysis tables are released as the [SanreMello Corpus on Hugging Face](https://huggingface.co/sanremello), with the [features dataset](https://huggingface.co/datasets/sanremello/smlc-features), a [corpus explorer](https://huggingface.co/spaces/sanremello/smlc-explorer) and the [poster](https://huggingface.co/spaces/sanremello/smlc). Code: [GitHub](https://github.com/TomMoeras/sanremello). Abstract in the [CLIN 36 book of abstracts](https://clin36.ai.vub.ac.be/CLIN36_book_of_abstracts.pdf), poster 30.

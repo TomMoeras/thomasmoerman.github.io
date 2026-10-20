@@ -1,0 +1,46 @@
+/* Design tokens. Raw scales -> semantic roles. Components reference only the semantic roles. */
+:root {
+  /* Brand + neutrals */
+  --ug-blue: #1E64C8;
+  --ug-blue-ink: #16488f;
+  --ug-yellow: #FFD200;
+  --accent: #F1A42B;          /* Arts faculty orange, the single highlight */
+  --ink: #1b1f24;
+  --muted: #6b7280;
+  --line: #d9dee6;
+  --bg: #ffffff;
+  --panel: #f3f6fa;
+  --panel-blue: #eaf1fb;
+
+  /* Concept colours, fixed across the deck */
+  --c-source: #1E64C8;        /* source language */
+  --c-target: #2D8CA8;        /* target language */
+  --c-retrieved: #F1A42B;     /* retrieved example (shares the accent) */
+  --c-synthetic: #7E6BA8;     /* synthetic / generated data */
+  --c-good: #2E8B57;
+  --c-bad: #C0524C;
+
+  /* Type scale (pt) */
+  --fs-caption: 16pt;
+  --fs-label: 20pt;
+  --fs-body: 24pt;
+  --fs-subhead: 28pt;
+  --fs-headline: 31pt;
+  --fs-hero: 62pt;
+
+  /* Weights (UGent Panno Text faces) */
+  --w-light: 300;
+  --w-regular: 400;
+  --w-medium: 500;
+  --w-semibold: 600;
+
+  /* Spacing (8px base) */
+  --s-1: 4px; --s-2: 8px; --s-3: 16px; --s-4: 24px; --s-5: 32px; --s-6: 48px; --s-7: 64px;
+
+  /* Layout */
+  --gutter-x: 0.78in;
+  --gutter-top: 0.5in;
+  --gutter-bottom: 0.46in;
+  --radius: 10px;
+  --stroke: 3px;
+}

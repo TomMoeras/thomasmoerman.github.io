@@ -9,6 +9,7 @@ project:
     - images/ugent.png
     - images/lt3.png
     - images/transtech.png
+    - talks/alicante-2026/**
 
 website:
   title: "Thomas Moerman"

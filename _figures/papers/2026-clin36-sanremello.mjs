@@ -17,7 +17,7 @@ function corpus() {
   col(60, 'Sanremo', 'Italy, 1951 to 2026', '2,220', '76 editions', 'Italian lyrics required', GREEN, FILL.green);
   col(620, 'Melodifestivalen', 'Sweden, 1958 to 2026', '1,149', '66 editions', 'Swedish until 2002, then free', BLUE, FILL.blue);
   s += T(600, 610, '3,369 entries with lyrics, metadata, votes and audio features', { fs: FS.micro, c: MUT });
-  return { svg: svgWrap(s, V), caption: 'Two national contests with one rule that differs, 3,369 entries in all' };
+  return { svg: svgWrap(s, V), caption: 'Two national contests, 3,369 entries in all' };
 }
 
 function method() {

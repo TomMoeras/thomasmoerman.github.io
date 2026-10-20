@@ -119,4 +119,4 @@ h2 {
 .figstrip-dot.active { background: $primary; }
 
 // Listing cards show the whole figure rather than a centre crop
-.quarto-grid-item .card-img-top, .quarto-grid-item img.thumbnail-image { object-fit: contain; background: #fff; }
+.quarto-grid-item img.thumbnail-image, .quarto-grid-item .card-img-top img { object-fit: contain !important; background: #fff; }

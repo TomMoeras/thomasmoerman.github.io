@@ -1,6 +1,6 @@
 ---
 image: ../images/papers/2026-clin36-sanremello-1.png
-title: "SanreMello Corpus: The Story of Seven Decades of Sanremo and Melodifestivalen in Data"
+title: "SanreMello Corpus: Seven Decades of Sanremo and Melodifestivalen in Data"
 subtitle: "CLIN 36, 2026 (poster)"
 description: "A cross-lingual corpus of 3,369 entries from Italy's Sanremo and Sweden's Melodifestivalen, with language, anglicism, code-switching, topic and emotion layers, released on Hugging Face."
 author:

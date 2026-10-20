@@ -30,7 +30,7 @@ function method() {
   an.forEach((t, i) => s += T(676, 268 + i * 52, t, { fs: FS.sub, c: MUT }));
   s += arrowH(882, 940, 350, MUT);
   s += nodeBox(946, 280, 194, 140, 'Placement', 'in the final', { fill: FILL.green, stroke: GREEN, tfs: 34 });
-  return { svg: svgWrap(s, V), caption: 'Four sources, five analyses, one outcome to explain' };
+  return { svg: svgWrap(s, V), caption: 'Four data sources and five analyses' };
 }
 
 function anglicisms() {

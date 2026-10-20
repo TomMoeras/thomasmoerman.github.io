@@ -1,3 +1,4 @@
+- [October 2026]{.item-date} Research stay at Transducens, Universitat d'Alacant, opened with a kickoff talk, [Fuzzy Matches and Synthetic Data for Machine Translation](talks/alicante-2026/).
 - [October 2026]{.item-date} Our [WMT 2026 submission](publications/2026-wmt-sorbian.qmd) for multitask Sorbian NLP was the joint winner of the Sorbian track at the Conference on Machine Translation (WMT).
 - [September 2026]{.item-date} Gave an oral presentation, [Synthetic Data for Machine Translation](talks/clin2026.pdf), at CLIN 2026.
 - [August 2026]{.item-date} Our [EAMT 2026 paper](publications/2026-eamt.qmd) on machine translation in the asylum context is now published in the [ACL Anthology](https://aclanthology.org/2026.eamt-1.3/).

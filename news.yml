@@ -13,9 +13,16 @@
 # a better sentence is wanted.
 
 auto_since: "2026-08"
-max_items: 6
+max_items: 8
 
 items:
+  - date: "2026-10"
+    text: "Research stay at Transducens, Universitat d'Alacant, opened with a kickoff talk, [Fuzzy Matches and Synthetic Data for Machine Translation](talks/alicante-2026/)."
+  - date: "2026-10"
+    pub: 2026-wmt-sorbian
+    text: "Our [WMT 2026 submission](publications/2026-wmt-sorbian.qmd) for multitask Sorbian NLP was the joint winner of the Sorbian track at the Conference on Machine Translation (WMT)."
+  - date: "2026-09"
+    text: "Gave an oral presentation, [Synthetic Data for Machine Translation](talks/clin2026.pdf), at CLIN 2026."
   - date: "2026-08"
     pub: 2026-eamt
     text: "Our [EAMT 2026 paper](publications/2026-eamt.qmd) on machine translation in the asylum context is now published in the [ACL Anthology](https://aclanthology.org/2026.eamt-1.3/)."

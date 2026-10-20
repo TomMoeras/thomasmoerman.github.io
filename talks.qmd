@@ -4,6 +4,7 @@ title: "Talks"
 
 ## Conference and workshop talks
 
+- [October 2026]{.item-date} Fuzzy Matches and Synthetic Data for Machine Translation. Kickoff talk for the research stay at Transducens, Universitat d'Alacant, an overview of our work at LT3 and the plan for the stay. [Slides (HTML, arrow keys to advance)](talks/alicante-2026/) · [Slides (PDF)](talks/alicante2026.pdf)
 - [September 2026]{.item-date} Synthetic Data for Machine Translation: Where We Are. CLIN 2026 (oral presentation). [Slides (PDF)](talks/clin2026.pdf)
 - [June 2026]{.item-date} [Multilingual Communication in the Asylum Context](publications/2026-eamt.qmd). EAMT 2026 (best-paper shortlist). [Slides (PDF)](talks/eamt2026.pdf)
 - [June 2025]{.item-date} [Tailoring Machine Translation for Scientific Literature](publications/2025-pslt.qmd). PSLT 2025, the Patent and Scientific Literature Translation workshop. [Slides (PDF)](talks/pslt2025.pdf)

@@ -9,6 +9,9 @@ project:
     - images/ugent.png
     - images/lt3.png
     - images/transtech.png
+    - images/huggingface.svg
+    - images/googlescholar.svg
+    - images/orcid.svg
     - talks/alicante-2026/**
 
 website:
@@ -32,7 +35,7 @@ website:
       - icon: github
         href: https://github.com/TomMoeras
         aria-label: GitHub
-      - text: "🤗"
+      - text: '<i class="bi si si-huggingface" role="img" aria-label="Hugging Face"></i>'
         href: https://huggingface.co/TomMoeras
         aria-label: Hugging Face
       - icon: envelope

@@ -12,14 +12,16 @@ pagetitle: "Thomas Moerman"
 
 I develop retrieval-augmented and synthetic-data methods for natural language processing (NLP) and artificial intelligence (AI), applied to a range of tasks such as machine translation, educational NLP, and fairness in language models.
 
-::: {.home-links}
-<a href="https://scholar.google.be/citations?user=_c_5EIoAAAAJ">Google Scholar</a>
-<a href="https://orcid.org/0009-0001-6021-8031">ORCID</a>
-<a href="https://www.linkedin.com/in/thomas-andreas-moerman/"><i class="bi bi-linkedin"></i> LinkedIn</a>
-<a href="https://github.com/TomMoeras"><i class="bi bi-github"></i> GitHub</a>
-<a href="https://huggingface.co/TomMoeras">🤗 Hugging Face</a>
-<a href="mailto:Thomas.Moerman@UGent.be"><i class="bi bi-envelope"></i> Email</a>
-:::
+```{=html}
+<div class="home-links">
+<a href="mailto:Thomas.Moerman@UGent.be"><i class="bi bi-envelope"></i>Email</a>
+<a href="https://scholar.google.be/citations?user=_c_5EIoAAAAJ"><i class="si si-googlescholar"></i>Google Scholar</a>
+<a href="https://orcid.org/0009-0001-6021-8031"><i class="si si-orcid"></i>ORCID</a>
+<a href="https://github.com/TomMoeras"><i class="bi bi-github"></i>GitHub</a>
+<a href="https://huggingface.co/TomMoeras"><i class="si si-huggingface"></i>Hugging Face</a>
+<a href="https://www.linkedin.com/in/thomas-andreas-moerman/"><i class="bi bi-linkedin"></i>LinkedIn</a>
+</div>
+```
 :::
 
 ::: {.home-right}

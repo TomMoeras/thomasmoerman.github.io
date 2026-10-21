@@ -74,7 +74,33 @@ h2 {
 }
 .home-name { font-size: 1.45rem; font-weight: 700; display: block; }
 .home-title { color: #555; display: block; margin-bottom: 0.7rem; }
-.home-links { display: flex; flex-direction: column; gap: 0.3rem; margin-top: 0.9rem; }
+.home-links { margin-top: 0.9rem; }
+.home-links a {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  line-height: 1.9;
+}
+.home-links .bi, .home-links .si { width: 1.1em; text-align: center; flex: none; }
+
+// Monochrome brand marks that Bootstrap Icons lacks (simple-icons, CC0), drawn in the text colour
+.si {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.125em;
+  background-color: currentColor;
+  -webkit-mask: var(--si) no-repeat center / contain;
+  mask: var(--si) no-repeat center / contain;
+}
+// Match the size and spacing Quarto gives its own navbar icons (nav-item.compact)
+.navbar .nav-item:not(.compact) .nav-link:has(> .menu-text > .si) {
+  padding-left: 0.5rem; padding-right: 0.5rem; font-size: 1.1rem;
+}
+.navbar .menu-text .si { vertical-align: -0.17em; }
+.si-huggingface { --si: url(/images/huggingface.svg); }
+.si-googlescholar { --si: url(/images/googlescholar.svg); }
+.si-orcid { --si: url(/images/orcid.svg); }
 @media (max-width: 768px) {
   .home-grid { grid-template-columns: 1fr; }
 }

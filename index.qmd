@@ -17,6 +17,7 @@ I develop retrieval-augmented and synthetic-data methods for natural language pr
 <a href="https://orcid.org/0009-0001-6021-8031">ORCID</a>
 <a href="https://www.linkedin.com/in/thomas-andreas-moerman/"><i class="bi bi-linkedin"></i> LinkedIn</a>
 <a href="https://github.com/TomMoeras"><i class="bi bi-github"></i> GitHub</a>
+<a href="https://huggingface.co/TomMoeras">🤗 Hugging Face</a>
 <a href="mailto:Thomas.Moerman@UGent.be"><i class="bi bi-envelope"></i> Email</a>
 :::
 :::

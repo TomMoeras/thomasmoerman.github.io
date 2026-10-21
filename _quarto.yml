@@ -32,6 +32,9 @@ website:
       - icon: github
         href: https://github.com/TomMoeras
         aria-label: GitHub
+      - text: "🤗"
+        href: https://huggingface.co/TomMoeras
+        aria-label: Hugging Face
       - icon: envelope
         href: mailto:Thomas.Moerman@UGent.be
         aria-label: Email

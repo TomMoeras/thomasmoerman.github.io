@@ -9,6 +9,7 @@ author:
 date: 2026-10-28
 categories: [Machine Translation, Low-resource]
 citation:
+  id: moerman2026sorbian
   type: paper-conference
   container-title: "Proceedings of the Eleventh Conference on Machine Translation (WMT)"
   page: "2667-2680"

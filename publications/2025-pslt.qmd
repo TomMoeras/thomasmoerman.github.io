@@ -11,6 +11,7 @@ author:
 date: 2025-06-24
 categories: [Machine Translation]
 citation:
+  id: moerman2025scientific
   type: paper-conference
   container-title: "Proceedings of the Eleventh Workshop on Patent and Scientific Literature Translation (PSLT)"
 google-scholar: true

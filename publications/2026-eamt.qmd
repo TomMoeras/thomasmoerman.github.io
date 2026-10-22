@@ -10,6 +10,7 @@ author:
 date: 2026-06-01
 categories: [Machine Translation, Low-resource]
 citation:
+  id: moerman2026asylum
   type: paper-conference
   container-title: "Proceedings of the 26th Annual Conference of the European Association for Machine Translation (Volume 1)"
   page: "6-21"

@@ -9,6 +9,7 @@ author:
 date: 2024-06-27
 categories: [Machine Translation]
 citation:
+  id: moerman2024monolingual
   type: paper-conference
   container-title: "Proceedings of the First International Workshop on Knowledge-Enhanced Machine Translation (KeMT)"
 google-scholar: true

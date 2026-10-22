@@ -9,6 +9,7 @@ author:
 date: 2025-06-01
 categories: [Educational NLP]
 citation:
+  id: degraeuwe2025feedback
   type: paper-conference
   container-title: "35th Meeting of Computational Linguistics in the Netherlands (CLIN 35)"
 google-scholar: true

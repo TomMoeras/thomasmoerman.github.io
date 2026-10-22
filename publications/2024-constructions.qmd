@@ -10,6 +10,7 @@ author:
 date: 2024-01-01
 categories: [Construction Grammar]
 citation:
+  id: moerman2024constructions
   type: article-journal
   container-title: "Constructions"
   doi: "10.24338/cons-651"

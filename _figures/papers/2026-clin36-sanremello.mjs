@@ -46,7 +46,7 @@ function anglicisms() {
     });
   };
   bars(60, 'Sanremo, in Italian', [['bar', 101], ['film', 87], ['baby', 84], ['star', 38], ['boom', 37]], GREEN);
-  bars(620, 'Melodifestivalen, in Swedish', [['baby', 111], ['hit', 57], ['singel', 56], ['rock', 32], ['okej', 23]], BLUE);
+  bars(620, 'Melodifestivalen, in Swedish', [['baby', 111], ['singel', 56], ['rock', 32], ['okej', 23]], BLUE);
   s += T(60, 610, 'occurrences in majority-language entries from 1960 on', { a: 'start', fs: FS.micro, c: MUT });
   return { svg: svgWrap(s, V), caption: 'The most frequent English loans in each contest' };
 }

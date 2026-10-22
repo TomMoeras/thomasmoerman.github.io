@@ -9,6 +9,7 @@ author:
 date: 2026-05-01
 categories: [Educational NLP]
 citation:
+  id: degraeuwe2026shanel
   type: paper-conference
   container-title: "Proceedings of the Fifteenth Language Resources and Evaluation Conference (LREC)"
 google-scholar: true

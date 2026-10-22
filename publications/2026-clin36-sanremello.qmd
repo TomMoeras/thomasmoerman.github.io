@@ -11,6 +11,7 @@ author:
 date: 2026-09-11
 categories: [Digital Humanities]
 citation:
+  id: moerman2026sanremello
   type: paper-conference
   container-title: "36th Meeting of Computational Linguistics in the Netherlands (CLIN 36), Book of Abstracts"
   page: "100-101"

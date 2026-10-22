@@ -8,13 +8,13 @@ My work develops retrieval-augmented and synthetic-data methods for natural lang
 
 Fuzzy-match augmentation retrieves similar past translations from a translation memory and adds them to a model's training data and prompts. My work shows that this is effective for both neural MT and large language models, that it combines well with back-translation and synthetic data, and that it holds under domain shift and severe low-resource conditions.
 
-[See all machine translation publications](publications/index.qmd?category=Machine%20Translation)
+[See all machine translation publications](publications/index.html?category=Machine%20Translation)
 
 ## Educational NLP {#educational-nlp}
 
 The same retrieval idea transfers to automated grading of short-answer language-learning exercises. Instead of retrieving similar translations, the system retrieves how similar student answers were graded before. This line produced the ShAnEL-2 dataset and a study of fuzzy semantic retrieval strategies for grading.
 
-[See all educational NLP publications](publications/index.qmd?category=Educational%20NLP)
+[See all educational NLP publications](publications/index.html?category=Educational%20NLP)
 
 ## Fairness in language models
 
@@ -24,7 +24,7 @@ I work on fairness in language models, in particular how they choose gender for 
 
 A separate line evaluates computational construction grammars on semantic frame extraction and semantic role labeling, using standard benchmarks. It studies how different parsing heuristics affect the quality of the extracted meaning.
 
-[See all construction grammar publications](publications/index.qmd?category=Construction%20Grammar)
+[See all construction grammar publications](publications/index.html?category=Construction%20Grammar)
 
 ## Infrastructure and compute
 

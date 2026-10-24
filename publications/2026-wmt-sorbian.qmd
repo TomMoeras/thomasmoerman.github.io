@@ -28,6 +28,13 @@ google-scholar: true
 <!-- /figstrip -->
 LT3's submission to the WMT 2026 shared task on Multitask LLMs with Limited Resources for Upper Sorbian (hsb) and Lower Sorbian (dsb). A single QLoRA-fine-tuned Qwen3.5-2B model handles machine translation, question answering, spell checking, grammar checking, and maths reasoning, combining fuzzy-match retrieval (over authentic and back-translated pools), synthetic task data, and a scoring-based inference system. The primary system was the joint winner of the Sorbian track, ranking first or second across all five tasks.
 
-Paper: [Proceedings of WMT 2026 (PDF)](https://www2.statmt.org/wmt26/pdf/2026.wmt-1.210.pdf). Code, models, and data: [GitHub](https://github.com/TomMoeras/wmt26-lt3-sorbian), [Hugging Face models](https://huggingface.co/TomMoeras/wmt26-lt3-sorbian), [dataset](https://huggingface.co/datasets/TomMoeras/wmt26-lt3-sorbian-data).
+```{=html}
+<div class="resources" aria-label="Paper, code, models and data with QR codes">
+<a class="resource" href="https://www2.statmt.org/wmt26/pdf/2026.wmt-1.210.pdf"><img src="../images/qr/sorbian-paper.svg" alt="QR code for the paper PDF in the WMT 2026 proceedings"><span class="resource-kind">Paper</span><span class="resource-name">WMT 2026 proceedings</span></a>
+<a class="resource" href="https://github.com/TomMoeras/wmt26-lt3-sorbian"><img src="../images/qr/sorbian-code.svg" alt="QR code for the code on GitHub"><span class="resource-kind">Code</span><span class="resource-name">GitHub</span></a>
+<a class="resource" href="https://huggingface.co/TomMoeras/wmt26-lt3-sorbian"><img src="../images/qr/sorbian-models.svg" alt="QR code for the models on Hugging Face"><span class="resource-kind">Models</span><span class="resource-name">Hugging Face</span></a>
+<a class="resource" href="https://huggingface.co/datasets/TomMoeras/wmt26-lt3-sorbian-data"><img src="../images/qr/sorbian-dataset.svg" alt="QR code for the dataset on Hugging Face"><span class="resource-kind">Dataset</span><span class="resource-name">Hugging Face</span></a>
+</div>
+```
 
 Research theme: [Machine translation](../research.qmd#machine-translation)

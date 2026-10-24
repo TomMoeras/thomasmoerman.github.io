@@ -16,9 +16,11 @@ The same retrieval idea transfers to automated grading of short-answer language-
 
 [See all educational NLP publications](publications/index.html?category=Educational%20NLP)
 
-## Fairness in language models
+## Fairness in language models {#fairness-in-language-models}
 
 I work on fairness in language models, in particular how they choose gender for ambiguous referents in translation and how synthetic contrastive data can reduce gender bias.
+
+[See all fairness publications](publications/index.html?category=Fairness)
 
 ## Construction grammar {#construction-grammar}
 

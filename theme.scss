@@ -162,3 +162,11 @@ h2 {
   margin-bottom: 0.5rem;
 }
 .quarto-grid-item .listing-description { font-size: 0.95rem; }
+
+// Resource cards on publication pages: a QR code per link, so a poster visitor can scan from the page too
+.resources { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 1rem 1.25rem; margin: 1.5rem 0 1.75rem; }
+.resource { display: flex; flex-direction: column; align-items: center; text-align: center; text-decoration: none; color: inherit; }
+.resource img { width: 100%; max-width: 128px; aspect-ratio: 1; border: 1px solid #DEE2E6; border-radius: 0.5rem; padding: 0.35rem; background: #fff; margin-bottom: 0.5rem; }
+.resource:hover img { border-color: $primary; }
+.resource-kind { font-weight: 600; font-size: 0.9rem; line-height: 1.25; }
+.resource-name { font-size: 0.82rem; color: #6b7280; line-height: 1.25; }

@@ -1,1 +1,1 @@
-{ "name": "publication-figures", "private": true, "type": "module", "devDependencies": { "playwright-core": "^1.63.0" } }
+{"name":"publication-figures","private":true,"type":"module","devDependencies":{"playwright-core":"^1.63.0","qrcode":"^1.5.4"}}

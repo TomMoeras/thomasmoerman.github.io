@@ -20,7 +20,7 @@ items:
     text: "Research stay at Transducens, Universitat d'Alacant, opened with a kickoff talk, [Fuzzy Matches and Synthetic Data for Machine Translation](talks/alicante-2026/)."
   - date: "2026-10"
     pub: 2026-emnlp-contragand
-    text: "Presented [ContraGAND](publications/2026-emnlp-contragand.qmd), a contrastive corpus for gender ambiguity detection, as a poster at EMNLP 2026 in Budapest. The paper is in the [ACL Anthology](https://aclanthology.org/2026.emnlp-main.485/), with the dataset, models and a demo on Hugging Face."
+    text: "Presented [ContraGAND](publications/2026-emnlp-contragand.qmd), a contrastive corpus for gender ambiguity detection, as a poster at EMNLP 2026 in Budapest. The paper is in the [ACL Anthology](https://aclanthology.org/2026.emnlp-main.485/), with the dataset, models and a demo on [Hugging Face](https://huggingface.co/TomMoeras)."
   - date: "2026-10"
     pub: 2026-wmt-sorbian
     text: "Our [WMT 2026 submission](publications/2026-wmt-sorbian.qmd) for multitask Sorbian NLP was the joint winner of the Sorbian track at the Conference on Machine Translation (WMT)."

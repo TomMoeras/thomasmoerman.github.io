@@ -7,7 +7,7 @@ const V = 'WMT 2026';
 function oneModel() {
   const tasks = ['Machine translation', 'Question answering', 'Spell checking', 'Grammar checking', 'Maths reasoning'];
   let s = T(60, 96, 'One 2B model, five Sorbian tasks', { a: 'start', fs: FS.title, w: 1 });
-  s += nodeBox(60, 230, 420, 200, 'Qwen3.5-2B', 'one QLoRA model, limited data', { fill: FILL.blue, stroke: BLUE, tfs: 52 });
+  s += nodeBox(60, 230, 420, 200, 'Qwen3.5-2B', ['one QLoRA model,', 'little data'], { fill: FILL.blue, stroke: BLUE, tfs: 52 });
   tasks.forEach((t, i) => {
     const y = 150 + i * 92;
     s += box(760, y, 380, 66, '#fff', LN, { rx: 12, sw: 3 }) + T(950, y + 44, t, { fs: FS.sub, c: INKD });
@@ -19,10 +19,10 @@ function oneModel() {
 function components() {
   let s = T(60, 96, 'Three components', { a: 'start', fs: FS.title, w: 1 });
   const { s: c } = chain([
-    { t: 'Fuzzy matches', s: '0 or 1 in fine-tuning, 3 at inference', fill: FILL.orange, stroke: ORANGE },
-    { t: 'Synthetic task data', s: 'typos, paradigm swaps, cloze items', fill: FILL.purple, stroke: PURPLE },
-    { t: 'Score, do not write', s: 'rank candidates by likelihood', fill: FILL.blue, stroke: BLUE },
-  ], { y: 210, h: 200, gap: 50, tfs: 40 });
+    { t: 'Fuzzy matches', s: ['0 or 1 in fine-tuning,', '3 at inference'], fill: FILL.orange, stroke: ORANGE },
+    { t: 'Synthetic task data', s: ['typos, paradigm swaps,', 'cloze items'], fill: FILL.purple, stroke: PURPLE },
+    { t: 'Score, do not write', s: ['rank candidates', 'by likelihood'], fill: FILL.blue, stroke: BLUE },
+  ], { y: 210, h: 200, gap: 50, tfs: 30 });
   s += c;
   s += T(600, 520, 'Authentic pairs 1.07M, plus 0.67M back-translated for retrieval at inference', { fs: FS.sub, c: MUT });
   return { svg: svgWrap(s, V), caption: 'Fuzzy matches by stage, synthetic task data, scoring instead of writing' };

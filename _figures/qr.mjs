@@ -14,6 +14,8 @@ const links = {
   'sorbian-code': 'https://github.com/TomMoeras/wmt26-lt3-sorbian',
   'sorbian-models': 'https://huggingface.co/TomMoeras/wmt26-lt3-sorbian',
   'sorbian-dataset': 'https://huggingface.co/datasets/TomMoeras/wmt26-lt3-sorbian-data',
+  'contragand-poster': 'https://thomasmoerman.dev/posters/2026-emnlp-contragand-poster.pdf',
+  'sorbian-poster': 'https://thomasmoerman.dev/posters/2026-wmt-sorbian-poster.pdf',
 };
 
 for (const [name, url] of Object.entries(links)) {

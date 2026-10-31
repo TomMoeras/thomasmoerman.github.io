@@ -13,6 +13,7 @@ project:
     - images/googlescholar.svg
     - images/orcid.svg
     - talks/alicante-2026/**
+    - posters/*.pdf
 
 website:
   title: "Thomas Moerman"

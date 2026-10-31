@@ -12,10 +12,10 @@ citation:
   id: moerman2026sorbian
   type: paper-conference
   container-title: "Proceedings of the Eleventh Conference on Machine Translation (WMT)"
-  page: "2667-2680"
+  page: "2668-2681"
   publisher: "Association for Computational Linguistics"
   event-place: "Budapest, Hungary"
-  url: "https://www2.statmt.org/wmt26/pdf/2026.wmt-1.210.pdf"
+  url: "https://aclanthology.org/2026.wmt-main.211/"
 google-scholar: true
 ---
 
@@ -30,7 +30,7 @@ LT3's submission to the WMT 2026 shared task on Multitask LLMs with Limited Reso
 
 ```{=html}
 <div class="resources" aria-label="Paper, poster, code, models and data with QR codes">
-<a class="resource" href="https://www2.statmt.org/wmt26/pdf/2026.wmt-1.210.pdf"><img src="../images/qr/sorbian-paper.svg" alt="QR code for the paper PDF in the WMT 2026 proceedings"><span class="resource-kind">Paper</span><span class="resource-name">WMT 2026 proceedings</span></a>
+<a class="resource" href="https://aclanthology.org/2026.wmt-main.211/"><img src="../images/qr/sorbian-paper.svg" alt="QR code for the paper on the ACL Anthology"><span class="resource-kind">Paper</span><span class="resource-name">ACL Anthology</span></a>
 <a class="resource" href="../posters/2026-wmt-sorbian-poster.pdf"><img src="../images/qr/sorbian-poster.svg" alt="QR code for the poster PDF"><span class="resource-kind">Poster</span><span class="resource-name">WMT 2026, Budapest (PDF)</span></a>
 <a class="resource" href="https://github.com/TomMoeras/wmt26-lt3-sorbian"><img src="../images/qr/sorbian-code.svg" alt="QR code for the code on GitHub"><span class="resource-kind">Code</span><span class="resource-name">GitHub</span></a>
 <a class="resource" href="https://huggingface.co/TomMoeras/wmt26-lt3-sorbian"><img src="../images/qr/sorbian-models.svg" alt="QR code for the models on Hugging Face"><span class="resource-kind">Models</span><span class="resource-name">Hugging Face</span></a>

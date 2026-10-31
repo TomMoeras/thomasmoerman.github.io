@@ -10,7 +10,7 @@ const links = {
   'contragand-model-closed': 'https://huggingface.co/TomMoeras/contragand-qwen3.5-4b-closed',
   'contragand-model-open': 'https://huggingface.co/TomMoeras/contragand-qwen3.5-4b-open',
   'contragand-demo': 'https://huggingface.co/spaces/TomMoeras/contragand-demo',
-  'sorbian-paper': 'https://www2.statmt.org/wmt26/pdf/2026.wmt-1.210.pdf',
+  'sorbian-paper': 'https://aclanthology.org/2026.wmt-main.211/',
   'sorbian-code': 'https://github.com/TomMoeras/wmt26-lt3-sorbian',
   'sorbian-models': 'https://huggingface.co/TomMoeras/wmt26-lt3-sorbian',
   'sorbian-dataset': 'https://huggingface.co/datasets/TomMoeras/wmt26-lt3-sorbian-data',

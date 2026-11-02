@@ -23,7 +23,7 @@ items:
     text: "Presented [ContraGAND](publications/2026-emnlp-contragand.qmd), a contrastive corpus for gender ambiguity detection, as a [poster](posters/2026-emnlp-contragand-poster.pdf) at EMNLP 2026 in Budapest. The paper is in the [ACL Anthology](https://aclanthology.org/2026.emnlp-main.485/), with the dataset, models and a demo on [Hugging Face](https://huggingface.co/collections/TomMoeras/contragand)."
   - date: "2026-10"
     pub: 2026-wmt-sorbian
-    text: "Our [WMT 2026 submission](publications/2026-wmt-sorbian.qmd) for multitask Sorbian NLP was the joint winner of the Sorbian track at the Conference on Machine Translation (WMT), where we presented it as a [poster](posters/2026-wmt-sorbian-poster.pdf) in Budapest."
+    text: "Our [WMT 2026 submission](publications/2026-wmt-sorbian.qmd) for multitask Sorbian NLP won the Sorbian track at the Conference on Machine Translation (WMT), where we presented it as a [poster](posters/2026-wmt-sorbian-poster.pdf) in Budapest."
   - date: "2026-09"
     pub: 2026-clin36-sanremello
     text: "At CLIN 36 in Brussels, gave an oral presentation, [Synthetic Data for Machine Translation](talks/clin2026.pdf), and presented the [SanreMello Corpus](publications/2026-clin36-sanremello.qmd) poster, seven decades of Sanremo and Melodifestivalen as data."

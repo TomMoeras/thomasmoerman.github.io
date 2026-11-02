@@ -29,7 +29,7 @@ function components() {
 }
 
 function result() {
-  let s = T(60, 96, 'Joint winner, first on QA and maths', { a: 'start', fs: FS.title, w: 1 });
+  let s = T(60, 96, 'Track winner, first on QA and maths', { a: 'start', fs: FS.title, w: 1 });
   s += groupedBars(
     [{ l: 'MT chrF++', a: 69.57, b: 72.75 }, { l: 'QA acc.', a: 65.05, b: 57.33 }, { l: 'Spelling', a: 76.11, b: 78.03 }, { l: 'Grammar', a: 78.32, b: 79.52 }, { l: 'Maths acc.', a: 30.40, b: 29.00 }],
     [{ k: 'a', l: 'LT3, one 2B model', c: ORANGE }, { k: 'b', l: 'best other team', c: GREY }],

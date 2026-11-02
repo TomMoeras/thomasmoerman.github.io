@@ -32,7 +32,7 @@ I develop retrieval-augmented and synthetic-data methods for natural language pr
 
 ## Awards
 
-- [2026]{.item-date} Joint winner of the Sorbian track of the [WMT 2026 shared task on multitask LLMs with limited resources](publications/2026-wmt-sorbian.qmd), as team lead of LT3. One 2B model handles translation, question answering, spelling, grammar and maths for Upper and Lower Sorbian.
+- [2026]{.item-date} Winner of the Sorbian track of the [WMT 2026 shared task on multitask LLMs with limited resources](publications/2026-wmt-sorbian.qmd), as team lead of LT3. One 2B model handles translation, question answering, spelling, grammar and maths for Upper and Lower Sorbian.
 - [2026]{.item-date} Best-paper award shortlist at EAMT 2026 for [Multilingual Communication in the Asylum Context](publications/2026-eamt.qmd).
 
 :::

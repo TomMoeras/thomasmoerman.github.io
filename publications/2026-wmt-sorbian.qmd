@@ -1,8 +1,8 @@
 ---
 image: ../images/papers/2026-wmt-sorbian-1.png
 title: "Getting More from Small LLMs and Limited Data: Fuzzy-Match Retrieval and Candidate Scoring for Multitask Sorbian NLP"
-subtitle: "WMT 2026 (joint winner, Sorbian track)"
-description: "A QLoRA-fine-tuned Qwen3.5-2B with fuzzy-match retrieval and candidate scoring, joint winner of the WMT 2026 Sorbian multitask track."
+subtitle: "WMT 2026 (winner, Sorbian track)"
+description: "A QLoRA-fine-tuned Qwen3.5-2B with fuzzy-match retrieval and candidate scoring, winner of the WMT 2026 Sorbian multitask track."
 author:
   - name: Thomas Moerman
   - name: Arda Tezcan
@@ -27,7 +27,7 @@ google-scholar: true
 <figure><img src="../images/papers/2026-wmt-sorbian-3.png" alt="Official results, 22 rank points, first or second on every task" loading="lazy"><figcaption>Official results, 22 rank points, first or second on every task</figcaption></figure>
 </div>
 <!-- /figstrip -->
-LT3's submission to the WMT 2026 shared task on Multitask LLMs with Limited Resources for Upper Sorbian (hsb) and Lower Sorbian (dsb). A single QLoRA-fine-tuned Qwen3.5-2B model handles machine translation, question answering, spell checking, grammar checking, and maths reasoning, combining fuzzy-match retrieval (over authentic and back-translated pools), synthetic task data, and a scoring-based inference system. The primary system was the joint winner of the Sorbian track, ranking first or second across all five tasks.
+LT3's submission to the WMT 2026 shared task on Multitask LLMs with Limited Resources for Upper Sorbian (hsb) and Lower Sorbian (dsb). A single QLoRA-fine-tuned Qwen3.5-2B model handles machine translation, question answering, spell checking, grammar checking, and maths reasoning, combining fuzzy-match retrieval (over authentic and back-translated pools), synthetic task data, and a scoring-based inference system. The primary system won the Sorbian track, ranking first or second across all five tasks.
 
 ```{=html}
 <div class="resources" aria-label="Paper, poster, code, models and data with QR codes">

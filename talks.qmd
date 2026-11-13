@@ -2,8 +2,10 @@
 title: "Talks"
 ---
 
-## Conference and workshop talks
+## Conference and workshop talks and posters
 
+- [October 2026]{.item-date} [Getting More from Small LLMs and Limited Data](publications/2026-wmt-sorbian.qmd). WMT 2026, the Conference on Machine Translation, Budapest (poster, winner of the Sorbian track). [Poster (PDF)](posters/2026-wmt-sorbian-poster.pdf)
+- [October 2026]{.item-date} [ContraGAND: Auditing and Repairing Gender Ambiguity Failures in LLMs](publications/2026-emnlp-contragand.qmd). EMNLP 2026, Budapest (main conference poster). [Poster (PDF)](posters/2026-emnlp-contragand-poster.pdf)
 - [October 2026]{.item-date} Fuzzy Matches and Synthetic Data for Machine Translation. Kickoff talk for the research stay at Transducens, Universitat d'Alacant, an overview of our work at LT3 and the plan for the stay. [Slides (HTML, arrow keys to advance)](talks/alicante-2026/) · [Slides (PDF)](talks/alicante2026.pdf)
 - [September 2026]{.item-date} Synthetic Data for Machine Translation: Where We Are. CLIN 2026 (oral presentation). [Slides (PDF)](talks/clin2026.pdf)
 - [June 2026]{.item-date} [Multilingual Communication in the Asylum Context](publications/2026-eamt.qmd). EAMT 2026 (best-paper shortlist). [Slides (PDF)](talks/eamt2026.pdf)
